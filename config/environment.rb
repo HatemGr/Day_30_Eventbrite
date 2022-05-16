@@ -14,11 +14,11 @@ Rails.application.initialize!
 #   :enable_starttls_auto => true
 # }
 
-ActionMailer::Base.smtp_settings =   {
-  :address            => 'smtp.mail.yahoo.com',
-  :port               => 587,
-  :domain             => 'hatemgribi@yahoo.fr', #you can also use google.com
-  :authentication     => :plain,
-  :user_name          => ENV['YAHOO_LOGIN'],
-  :password           => ENV['YAHOO_PWD']
-}
+# ActionMailer::Base.smtp_settings =   {
+#   :address            => 'mail.yahoo.com',
+#   :port               => 587,
+#   :domain             => 'hatemgribi@yahoo.fr', #you can also use google.com
+#   :authentication     => :plain,
+#   :user_name          => ENV['YAHOO_LOGIN'],
+#   :password           => ENV['YAHOO_PWD']
+# }
