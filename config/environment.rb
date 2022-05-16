@@ -7,7 +7,7 @@ Rails.application.initialize!
 ActionMailer::Base.smtp_settings = {
   :user_name => ENV['MAILJET_API_KEY'],
   :password => ENV['MAILJET_SECRET_KEY'],
-  :domain => 'thpevent.com',
+  :domain => 'thptest.com',
   :address => 'in-v3.mailjet.com',
   tls: true ,
   :port => '465',
