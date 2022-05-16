@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :password => ENV['MAILJET_SECRET_KEY'],
   :domain => 'thpevent.com',
   :address => 'in-v3.mailjet.com',
-  :port => 587,
+  :port => 465,
   :authentication => :plain,
   :enable_starttls_auto => true
 }
